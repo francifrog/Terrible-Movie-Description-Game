@@ -10,7 +10,7 @@ import registerServiceWorker from './registerServiceWorker';
 function Movie(title, description) {
    this.title = title;
    this.description = description;
-}
+} 
 
 const movies = [
    new Movie('Toy Story', 'A kid\'s imaginary friends play behind his back.'),
